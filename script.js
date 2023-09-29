@@ -1,7 +1,7 @@
 function firstNonRepeatedChar(str) {
  // Write your code here
-	var count=0;
 	for(let i=0;i<=str.length;i++){
+		var count=0;
 		if(str[i]==str[i+1]){
 			count++;
 		}
